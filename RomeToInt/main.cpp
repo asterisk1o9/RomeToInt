@@ -6,9 +6,15 @@
 //
 
 #include <iostream>
+#include "Conversion.hpp"
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+   
+    Conversion testObj;
+    
+    string str = "III";
+    testObj.romanToInt(str);
+    
     return 0;
 }
